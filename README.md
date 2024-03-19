@@ -5,10 +5,23 @@ We consume news through several mediums throughout the day in our daily routine,
 Project Flow:
 Problem Statement
 Data Gathering
-Data Preprocessing : Here we perform some operation on data A. Tokenization B. Lower Case C. Stopwords D. Lemmatization / Stemming
-Vectorization (Convert Text data into the Vector): A. Bag Of Words (CountVectorizer) B. TF-IDF
-Model Building : A. Model Object Initialization B. Train and Test Model
-Model Evaluation : A. Accuracy Score B. Confusition Matrix C. Classification Report
+Data Preprocessing : Here we perform some operation on data 
+A. Tokenization 
+B. Lower Case 
+C. Stopwords 
+D. Lemmatization / Stemming
+
+Vectorization (Convert Text data into the Vector): 
+A. Bag Of Words (CountVectorizer) 
+B. TF-IDF
+
+Model Building : 
+A. Model Object Initialization 
+B. Train and Test Model
+Model Evaluation : 
+A. Accuracy Score 
+B. Confusition Matrix 
+C. Classification Report
 Model Deployment
 Prediction on Client Data
 Tech Stack Used
