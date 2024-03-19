@@ -1,30 +1,34 @@
-Fake-News-Classification
-Problem Statement:
-We consume news through several mediums throughout the day in our daily routine, but sometimes it becomes difficult to decide which one is fake and which one is authentic. Our job is to create a model which predicts whether a given news is real or fake.
+# Fake-News-Classification
 
-Project Flow:
-Problem Statement
-Data Gathering
-Data Preprocessing : Here we perform some operation on data 
-A. Tokenization 
-B. Lower Case 
-C. Stopwords 
-D. Lemmatization / Stemming
+## Problem Statement:
 
-Vectorization (Convert Text data into the Vector): 
-A. Bag Of Words (CountVectorizer) 
-B. TF-IDF
+In our daily routine, we consume news through various mediums, but determining the authenticity of news articles can be challenging. The objective of this project is to develop a model capable of predicting whether a given news article is real or fake.
 
-Model Building : 
-A. Model Object Initialization 
-B. Train and Test Model
-Model Evaluation : 
-A. Accuracy Score 
-B. Confusition Matrix 
-C. Classification Report
-Model Deployment
-Prediction on Client Data
-Tech Stack Used
-Python
-NLP
-Machine Learning Algorithms
+## Project Flow:
+
+1. **Problem Statement**
+2. **Data Gathering**
+3. **Data Preprocessing**:
+    - Tokenization
+    - Lowercasing
+    - Stopwords Removal
+    - Lemmatization / Stemming
+4. **Vectorization** (Convert Text data into Vectors):
+    - Bag Of Words (CountVectorizer)
+    - TF-IDF
+5. **Model Building**:
+    - Model Object Initialization
+    - Train and Test Model
+6. **Model Evaluation**:
+    - Accuracy Score
+    - Confusion Matrix
+    - Classification Report
+7. **Model Deployment**
+8. **Prediction on Client Data**
+
+## Tech Stack Used:
+
+- Python
+- NLP
+
+This repository contains code and resources for a Fake News Classification project using Natural Language Processing techniques.
